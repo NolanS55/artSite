@@ -1,4 +1,15 @@
-import { Inter } from 'next/font/google'
+/*********************************************************************************
+*  BTI425 – Assignment 06
+*  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  No part of this
+*  assignment has been copied manually or electronically from any other source (including web sites) or 
+*  distributed to other students.
+* 
+*  Name: Nolan S Student ID: 101664217 Date: 04-08-24
+*
+*  Vercel App (Deployed) Link: https://art-site-gamma.vercel.app/
+*
+********************************************************************************/ 
+
 import {Image, Col, Row} from 'react-bootstrap'
 
 export default function Home() {
