@@ -65,8 +65,8 @@ const MainNav = () => {
             </NavDropdown> 
         </Nav>}
         {!token && <Nav className='me-auto'>
-                <NavDropdown.Item href="/login" onClick={() => {setIsExpanded(false)}} active={router.pathname === "/login"}>Login</NavDropdown.Item>
-                <NavDropdown.Item href="/register" onClick={() => {setIsExpanded(false)}} active={router.pathname === "/register"}>Login</NavDropdown.Item>
+                <NavDropdown.Item href="/login" onClick={() => {setIsExpanded(false)}} active={router.pathname === "/login"}>Login </NavDropdown.Item>
+                <NavDropdown.Item href="/register" onClick={() => {setIsExpanded(false)}} active={router.pathname === "/register"}>Register</NavDropdown.Item>
         </Nav>}
       </Container>
     </Navbar>
